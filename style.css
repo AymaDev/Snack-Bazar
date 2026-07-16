@@ -87,13 +87,11 @@ body {
 }
 
 .card h4 {
-    background-color: #6d4c41; 
-    color: #ffffff;
+    color: #4e342e;
     font-size: 1.1rem;
     font-weight: 600;
     width: 65px;
     height: 65px;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
