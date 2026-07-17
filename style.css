@@ -104,6 +104,14 @@ body {
     align-items: center;
 }
 
+.card button {
+    background-color: #4e342e;
+    color: #e4dec7;
+    padding: 1%;
+    align-items: center;
+    display: flex;
+}
+
 
 @media (min-width: 768px) {
     .card {
