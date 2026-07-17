@@ -6,13 +6,13 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8eecc; 
+    background-color: #faf8f2; 
     color: #3e2723;            
     line-height: 1.6;
 }
 
 .header {
-    background-color: #4e342e;
+    background-color: #f58217;
     color: #ffffff;
     text-align: center;
     padding: 30px 20px;
@@ -81,7 +81,7 @@ body {
 
 .card h3 {
     font-size: 1.3rem;
-    color: #4e342e;
+    color: #f58217;
     font-weight: 700;
 }
 
@@ -92,7 +92,7 @@ body {
 
 
 .card h4 { 
-    background-color: #4e342e; 
+    background-color: #f58217; 
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: 600;
@@ -105,7 +105,7 @@ body {
 }
 
 .card button {
-    background-color: #4e342e;
+    background-color: #f58217;
     color: #e4dec7;
     padding: 1%;
     align-items: center;
@@ -132,13 +132,13 @@ body {
     }
 
     .card h4 {
-        background-color: #4e342e; 
+        background-color: #f58217; 
     }
 }
 
 
 .footer {
-    background-color: #4e342e;
+    background-color: #f58217;
     color: #d7ccc8;
     text-align: center;
     padding: 25px 20px;
@@ -153,5 +153,5 @@ body {
 .footer p:last-child {
     margin-bottom: 0;
     font-size: 0.8rem;
-    color: #a1887f;
+    color: #110f0f;
 }
