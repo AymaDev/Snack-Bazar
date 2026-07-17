@@ -11,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-
 .header {
     background-color: #4e342e;
     color: #ffffff;
@@ -28,14 +27,13 @@ body {
 }
 
 .header h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem; 
 }
-
 
 .heading {
     text-align: center;
-    margin: 40px 0 20px;
-    font-size: 2rem;
+    margin: 30px 15px 15px;
+    font-size: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     color: #4e342e;
@@ -46,57 +44,88 @@ body {
     flex-direction: column; 
     align-items: center;    
     gap: 20px;              
-    padding: 20px;
+    padding: 15px; 
     max-width: 1000px;      
     margin: 0 auto;
 }
 
+
 .card {
     background-color: #ffffff;
-    border-radius: 16px;
+    border-radius: 12px;
     width: 100%;            
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     display: flex;
-    flex-direction: row;    
+    flex-direction: column; 
     align-items: center;    
+    text-align: center;     
     padding: 20px;          
-    gap: 20px;              
+    gap: 15px;              
+}
+
+.card img {
+    width: 100%;           
+    max-width: 280px;      
+    height: 160px;         
+    object-fit: cover;
+    border-radius: 10px;    
 }
 
 
-
-
-.card img {
-    width: 140px;           
-    height: 110px;         
-    object-fit: cover;
-    border-radius: 12px;    
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
 }
 
 .card h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #4e342e;
     font-weight: 700;
-    margin-bottom: 4px;
 }
 
 .card p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: #8c7b75;
-    margin-right: auto; 
 }
 
-.card h4 {
-    color: #4e342e;
+
+.card h4 { 
+    background-color: #4e342e; 
+    color: #ffffff;
     font-size: 1.1rem;
     font-weight: 600;
     width: 65px;
     height: 65px;
+    border-radius: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
+}
 
-     
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;    
+        text-align: left;       
+        padding: 25px;
+        gap: 20px;
+    }
+
+    .card img {
+        width: 140px;           
+        height: 110px;         
+    }
+
+    .card p {
+        margin-right: auto;     
+        text-align: left;
+    }
+
+    .card h4 {
+        background-color: #4e342e; 
+    }
 }
 
 
@@ -106,6 +135,7 @@ body {
     text-align: center;
     padding: 25px 20px;
     font-size: 0.9rem;
+    margin-top: 30px;
 }
 
 .footer p {
