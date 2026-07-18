@@ -114,29 +114,6 @@ body {
 }
 
 
-@media (min-width: 768px) {
-    .card {
-        flex-direction: row;    
-        text-align: left;       
-        padding: 25px;
-        gap: 20px;
-    }
-
-    .card img {
-        width: 140px;           
-        height: 110px;         
-    }
-
-    .card p {
-        margin-right: auto;     
-        text-align: left;
-    }
-
-    .card h4 {
-        background-color: #f58217; 
-    }
-}
-
 
 .footer {
     background-color: #f58217;
